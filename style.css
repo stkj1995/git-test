@@ -1,3 +1,8 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 h1 {
   color: blue;
 }
@@ -8,4 +13,18 @@ p {
 
 h2 {
   color: brown;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
